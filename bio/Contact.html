@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact BioBiz</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fdfdfd;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #fff;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4caf50;
+        }
+
+        .navbar .logo span {
+            color: #f5a623;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-left: 15px;
+            color: #555;
+            font-weight: 600;
+        }
+
+        nav a.contact-link {
+            color: #4caf50;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .contact-left img {
+            max-width: 350px;
+        }
+
+        .contact-right {
+            max-width: 500px;
+        }
+
+        .contact-right h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .contact-right a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #f5a623;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #f39c12;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            left: 10px;
+            top: 150px;
+        }
+
+        .social-links a img {
+            width: 32px;
+            height: 32px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <div class="logo">BioBiz <span>India</span></div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="India Updates.html">India Updates</a>
+                <a href="Opportunities.html">Opportunities</a>
+                <a href="BioBiz Consulting.html">BioBiz Consulting</a>
+                <a href="Innovation Insights.html">Innovation Insights</a>
+                <a href="#">Insights</a>
+                <a href="#" class="contact-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="contact-container">
+            <!-- Left Side -->
+            <div class="contact-left">
+                <img src="img2.png" alt="Contact Illustration">
+            </div>
+            <!-- Right Side -->
+            <div class="contact-right">
+                <h1>Contact BioBiz</h1>
+                <p>BioBiz is a division of <a href="#">EAI (Energy Alternatives India)</a>, India’s leading market & management consulting firm for clean energy, cleantech & environmental sustainability.</p>
+                <form action="#" method="POST">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                    
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733561.png" alt="LinkedIn"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png" alt="Telegram"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a>
+        </div>
+    </main>
+</body>
+</html>
+

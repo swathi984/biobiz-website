@@ -1,0 +1,54 @@
+/* Navbar Customization */
+.navbar-brand {
+    font-weight: bold;
+    color: #28a745 !important;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #28a745 !important;
+}
+
+/* Carousel Customization */
+.carousel-top {
+    max-height: 400px; /* Set the carousel height */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.carousel-top img {
+    height: 400px; /* Ensures image fits carousel height */
+    object-fit: cover; /* Keeps the image aspect ratio */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+/* Orange Section */
+.orange-section {
+    background-color: #e36209;
+    color: white;
+}
+
+.orange-section h2 {
+    color: #222;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
